@@ -5,9 +5,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^2.7.0",
+  "dependencies": {
     "eslint-config-airbnb": "^6.2.0"
   },
   "private": true
