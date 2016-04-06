@@ -1,0 +1,14 @@
+{
+  "author": "4ok",
+  "name": "eslint-config-4ok",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0"
+  },
+  "private": true
+}
