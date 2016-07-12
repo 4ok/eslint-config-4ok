@@ -1,4 +1,7 @@
 module.exports = {
+    parserOptions: {
+        ecmaVersion: 6,
+    },
     rules : {
         indent : [2, 4, {SwitchCase : 1}],
         'newline-before-return' : 2,
@@ -8,5 +11,6 @@ module.exports = {
         'padded-blocks' : 0,
         'prefer-template' : 0,
         'prefer-rest-params' : 0,
+        'no-underscore-dangle' : [2, {afterAfterThis : true}],
     }
 };
