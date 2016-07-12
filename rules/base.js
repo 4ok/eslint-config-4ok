@@ -11,6 +11,6 @@ module.exports = {
         'padded-blocks' : 0,
         'prefer-template' : 0,
         'prefer-rest-params' : 0,
-        'no-underscore-dangle' : [2, {afterAfterThis : true}],
+        'no-underscore-dangle' : [2, {allowAfterThis : true}],
     }
 };
