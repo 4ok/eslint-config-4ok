@@ -8,6 +8,7 @@ module.exports = {
     },
     globals: {
         modules : false,
+        borschik : true,
     },
     rules : {
         'no-unused-expressions': 0,
