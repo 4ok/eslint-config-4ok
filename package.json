@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-bem-xjst": "^1.0.2"
+    "eslint-plugin-bem-xjst": "^1.0.2",
+    "eslint-plugin-import": "^1.10.2"
   },
   "private": true
 }
