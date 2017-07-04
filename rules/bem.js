@@ -12,5 +12,6 @@ module.exports = {
     },
     rules : {
         'no-unused-expressions': 0,
+        'prefer-rest-params' : 0,
     }
 };
