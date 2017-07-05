@@ -8,6 +8,9 @@ module.exports = {
         'react',
         'import',
     ],
+    extends: [
+        'plugin:react/recommended'
+    ],
     settings: {
         'import/resolver': {
             'webpack': {
