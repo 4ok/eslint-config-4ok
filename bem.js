@@ -4,4 +4,7 @@ module.exports = {
         './rules/base',
         './rules/bem',
     ].map(require.resolve),
+    env: {
+        browser: true,
+    },
 };
