@@ -2,9 +2,6 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 6,
     },
-    extends: [
-        'eslint:recommended'
-    ],
     rules: {
         indent: [2, 4, {
             SwitchCase: 1

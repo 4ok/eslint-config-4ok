@@ -1,7 +1,7 @@
 module.exports = {
     extends: [
         'eslint-config-airbnb/base',
-        './rules/base',
-        './rules/react',
-    ].map(require.resolve),
+        require.resolve('./rules/base'),
+        require.resolve('./rules/react'),
+    ],
 };
