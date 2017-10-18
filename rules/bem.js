@@ -3,15 +3,16 @@ module.exports = {
         'bem-xjst',
     ],
     env: {
-        'bem-xjst/bemhtml' : true,
-        'bem-xjst/bemtree' : true,
+        'bem-xjst/bemhtml': true,
+        'bem-xjst/bemtree': true,
     },
     globals: {
-        modules : false,
-        borschik : true,
+        modules: false,
+        borschik: true,
     },
-    rules : {
+    rules: {
         'no-unused-expressions': 0,
-        'prefer-rest-params' : 0,
-    }
+        'prefer-rest-params': 0,
+        'function-paren-newline': 0,
+    },
 };
