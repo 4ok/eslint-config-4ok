@@ -11,13 +11,13 @@ module.exports = {
             functions: 'never',
         }],
         indent: [2, 4, {
-            SwitchCase: 1
+            SwitchCase: 1,
         }],
         'newline-after-var': 2,
         'newline-before-return': 2,
         'no-param-reassign': 0,
         'no-underscore-dangle': [2, {
-            allowAfterThis: true
+            allowAfterThis: true,
         }],
         'padded-blocks': 0,
         'prefer-template': 0,

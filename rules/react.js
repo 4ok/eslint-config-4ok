@@ -10,9 +10,9 @@ module.exports = {
     ],
     settings: {
         'import/resolver': {
-            'webpack': {
-                'config': 'configs/webpack/client.js', // todo
-            }
-        }
-    }
+            webpack: {
+                config: 'configs/webpack/client.js', // todo
+            },
+        },
+    },
 };
