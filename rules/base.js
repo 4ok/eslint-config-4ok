@@ -21,5 +21,8 @@ module.exports = {
         }],
         'padded-blocks': 0,
         'prefer-template': 0,
+        'no-plusplus': [2, {
+            allowForLoopAfterthoughts: true,
+        }],
     },
 };
