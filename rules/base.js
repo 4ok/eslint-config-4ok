@@ -24,5 +24,6 @@ module.exports = {
         'no-plusplus': [2, {
             allowForLoopAfterthoughts: true,
         }],
+        'template-curly-spacing': ['error', 'always'],
     },
 };
