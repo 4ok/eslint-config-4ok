@@ -26,7 +26,7 @@ module.exports = {
         }],
         'template-curly-spacing': ['error', 'always'],
         'newline-per-chained-call': ['error', {
-            ignoreChainWithDepth: 1,
+            ignoreChainWithDepth: 2,
         }],
     },
 };
