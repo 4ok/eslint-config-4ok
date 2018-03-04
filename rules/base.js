@@ -15,12 +15,10 @@ module.exports = {
         }],
         'newline-after-var': 2,
         'newline-before-return': 2,
-        'no-param-reassign': 0,
         'no-underscore-dangle': [2, {
             allowAfterThis: true,
         }],
         'padded-blocks': 0,
-        'prefer-template': 0,
         'no-plusplus': [2, {
             allowForLoopAfterthoughts: true,
         }],
