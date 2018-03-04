@@ -2,6 +2,9 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 6,
     },
+    plugins: [
+        'no-param-reassign-allow-reduce',
+    ],
     rules: {
         'comma-dangle': [2, {
             arrays: 'always-multiline',
@@ -26,5 +29,7 @@ module.exports = {
         'newline-per-chained-call': ['error', {
             ignoreChainWithDepth: 2,
         }],
+        'no-param-reassign-allow-reduce/allow-reduce': 2,
+        'no-param-reassign-allow-reduce/no-reduce-identifiers': 2,
     },
 };
