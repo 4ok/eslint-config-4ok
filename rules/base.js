@@ -25,5 +25,8 @@ module.exports = {
             allowForLoopAfterthoughts: true,
         }],
         'template-curly-spacing': ['error', 'always'],
+        'newline-per-chained-call': ['error', {
+            ignoreChainWithDepth: 1,
+        }],
     },
 };
