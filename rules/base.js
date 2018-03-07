@@ -27,5 +27,6 @@ module.exports = {
         'newline-per-chained-call': ['error', {
             ignoreChainWithDepth: 2,
         }],
+        semi: ['error', 'never'],
     },
-};
+}
