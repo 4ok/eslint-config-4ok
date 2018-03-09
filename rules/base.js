@@ -29,7 +29,6 @@ module.exports = {
 			objectsInArrays: false,
 			arraysInArrays: false,
 		}],
-		'computed-property-spacing': [ 2, 'always' ],
 		'newline-per-chained-call': [ 2, {
 			ignoreChainWithDepth: 2,
 		}],
