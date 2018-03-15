@@ -33,9 +33,5 @@ module.exports = {
 			ignoreChainWithDepth: 2,
 		}],
 		semi: [ 2, 'never' ],
-		'object-curly-newline': [ 2, 'always' ],
-		'object-property-newline': [ 2, {
-			allowAllPropertiesOnSameLine: false,
-		}],
 	},
 }
