@@ -1,4 +1,7 @@
 module.exports = {
+	plugins: [
+		'json',
+	],
 	parserOptions: { ecmaVersion: 6 },
 	rules: {
 		'comma-dangle': [ 2, {
